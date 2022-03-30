@@ -16,3 +16,7 @@ The following techniques have been used:
 
 ## To excute the script
 python < scriptname.py >
+create a file with py extension using command vi scriptname.py
+write code to be run
+exit from file
+use command python filename to run in miniconda
