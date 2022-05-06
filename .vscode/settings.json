@@ -1,0 +1,26 @@
+{
+    "editor.formatOnSave": true,
+    "python.formatting.provider": "black",
+    "python.formatting.blackArgs": [
+        "--line-length=199"
+    ],
+    "python.sortImports.args": [
+        "--profile",
+        "black"
+    ],
+    "python.linting.flake8Args": [
+        "--ignore=E24,W504",
+        "--verbose"
+    ],
+    "[python]": {
+        "gitlens.codeLens.symbolScopes": [
+            "!Module"
+        ],
+        "editor.wordBasedSuggestions": false,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        },
+        "editor.tabSize": 4
+    },
+    "files.trimTrailingWhitespace": true
+}
